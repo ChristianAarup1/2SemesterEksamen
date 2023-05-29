@@ -4,3 +4,23 @@
 body {
 	background-color: #f2caa7;
 }
+
+.logo img{
+	width: 17%;
+	display: block;
+	margin: auto;
+	
+}
+
+.CenterSquare {
+	background-color: white;
+	height: 500px;
+	width: 700px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	
+}
