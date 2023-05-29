@@ -20,7 +20,54 @@ body {
 	box-shadow: 6px 6px rgb(40, 52, 59);
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 8%;
+	margin-bottom: 2%;
 	
 }
+
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	
+	}
+.LeftButtonSquare {
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-bottom: 10%;
+}
+
+.RightButtonSquare {
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-bottom: 10%;
+	margin-left: 300px;
+}
+
+/* The following code is used to make the blue navigational arrows for the picture gallery*/
+.arrow {
+  border: solid #008DCD;
+  border-width: 0px 7px 7px 0px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10%;
+}
+/* Border-width is used to create the look of the arrows*/
+
+.right {
+  transform: rotate(-45deg);
+  margin: 12px 0px 0px 2px;
+}
+
+.left {
+  transform: rotate(135deg);
+  margin: 12px 0px 0px 22px;
+}
+/* The arrows are displayed as right and left separately*/
