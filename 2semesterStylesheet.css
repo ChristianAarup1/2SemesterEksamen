@@ -48,7 +48,7 @@ body {
 	border-radius: 6%;
 	box-shadow: 6px 6px rgb(40, 52, 59);
 	margin-bottom: 10%;
-	margin-left: 300px;
+	margin-left: 20px;
 }
 
 /* The following code is used to make the blue navigational arrows for the picture gallery*/
@@ -71,3 +71,13 @@ body {
   margin: 12px 0px 0px 24px;
 }
 /* The arrows are displayed as right and left separately*/
+
+.Circle {
+  border: solid #28343B;
+  border-width: 7px 7px 7px 7px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 12px 0px 0px 20px;
+}
