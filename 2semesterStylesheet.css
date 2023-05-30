@@ -67,6 +67,7 @@ body {
 /* The following code is used to make the blue navigational arrows for the picture gallery*/
 .arrow {
   border: solid #008DCD;
+  /*Border-width is used to determine which side of the square is visible to create the arrows seen beneath the photo gallery*/
   border-width: 0px 7px 7px 0px;
   display: inline-block;
   padding: 20px;
@@ -132,5 +133,18 @@ body {
 	justify-content: center;
 	font-size: 100px;
 	margin-top: 50px;
-	font-family: p22-nudgewink-pro, sans-serif;
+	font: p22-nudgewink-pro, sans-serif;
+	color: white;
+	/* 
+	text-shadow: -3px 3px 0px #000,
+				  3px 3px 0px #000,
+				  3px -3px 0px #000,
+				  -3px -3px 0 #000;
+	*/
+}
+
+h{
+	-webkit-text-stroke-width: 3.2px;
+    -webkit-text-stroke-color: black;
+	
 }
