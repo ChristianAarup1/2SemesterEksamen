@@ -26,6 +26,13 @@ body {
 	
 }
 
+.CenterSquare iframe {
+		width: 500px; 
+		height: 365px;
+		margin-top: 60px;
+		margin-left: 115px;
+}
+
 
 .container {
 	display: flex;
