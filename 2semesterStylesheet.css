@@ -148,3 +148,32 @@ h{
     -webkit-text-stroke-color: black;
 	
 }
+
+.NewsSquare {
+	display: flex;
+	justify-content: center;
+}
+
+.News_Square_1 {
+	background-color: white;
+	height: 500px;
+	width: 700px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.News_Square_2 {
+	background-color: white;
+	height: 500px;
+	width: 700px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
