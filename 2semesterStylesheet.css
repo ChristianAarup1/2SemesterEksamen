@@ -39,11 +39,11 @@ body {
 		margin-left: 15px;
 }
 
-.CenterSquare img {
+img {
 	width: 670px; 
-		height: 450px;
-		margin-top: 25px;
-		margin-left: 15px;
+	height: 450px;
+	margin-left: 25%;
+	margin-top: -110px;
 }
 
 
@@ -141,20 +141,12 @@ body {
 	font-size: 100px;
 	margin-top: 50px;
 	font: p22-nudgewink-pro, sans-serif;
-	color: white;
-	/* 
-	text-shadow: -3px 3px 0px #000,
-				  3px 3px 0px #000,
-				  3px -3px 0px #000,
-				  -3px -3px 0 #000;
-	*/
-}
+	color: #ff6d07;
 
-h{
-	-webkit-text-stroke-width: 3.2px;
-    -webkit-text-stroke-color: black;
+	text-shadow: 5px 4px rgb(40, 52, 59);
 	
 }
+
 
 .NewsSquare {
 	display: flex;
