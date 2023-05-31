@@ -48,13 +48,14 @@ body {
 	width: 670px; 
 	height: 450px;
 	margin-top: 25px;
-	margin-left: -00px;
+	margin-left: 15px;
 }
 
 
 .container {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 3%;
 	
 	}
 .LeftButtonSquare {
@@ -63,7 +64,7 @@ body {
 	width: 70px;
 	border-radius: 6%;
 	box-shadow: 6px 6px rgb(40, 52, 59);
-	margin-bottom: 10%;
+	
 }
 
 .RightButtonSquare {
@@ -72,7 +73,7 @@ body {
 	width: 70px;
 	border-radius: 6%;
 	box-shadow: 6px 6px rgb(40, 52, 59);
-	margin-bottom: 10%;
+	
 	margin-left: 20px;
 }
 
