@@ -39,6 +39,13 @@ body {
 		margin-left: 15px;
 }
 
+.CenterSquare img {
+	width: 670px; 
+		height: 450px;
+		margin-top: 25px;
+		margin-left: 15px;
+}
+
 
 .container {
 	display: flex;
