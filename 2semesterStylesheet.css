@@ -156,24 +156,35 @@ h{
 
 .News_Square_1 {
 	background-color: white;
-	height: 500px;
-	width: 700px;
+	height: 300px;
+	width: 400px;
 	border-radius: 6%;
 	box-shadow: 6px 6px rgb(40, 52, 59);
 	margin-left: auto;
-	margin-right: auto;
-	margin-top: 2%;
+	margin-right: 50px;
+	margin-top: 1%;
 	margin-bottom: 2%;
 }
 
 .News_Square_2 {
 	background-color: white;
-	height: 500px;
-	width: 700px;
+	height: 300px;
+	width: 400px;
 	border-radius: 6%;
 	box-shadow: 6px 6px rgb(40, 52, 59);
-	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.News_Square_3 {
+	background-color: white;
+	height: 500px;
+	width: 850px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
 	margin-bottom: 2%;
 }
