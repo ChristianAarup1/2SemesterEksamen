@@ -1,7 +1,7 @@
 // JavaScript Documentfunction imgNext() {
 
       var image = document.getElementById("img1")
-if (image.src.match("SlidePictures/image.png")) {
+if (image.src.match("Billeder/Booth.jpg")) {
 
     image.src = "SlidePictures/image2.png";
 } else if (image.src.match("SlidePictures/image2.png")) {
@@ -17,7 +17,7 @@ if (image.src.match("SlidePictures/image.png")) {
 function imgPrev() {
 
       var image = document.getElementById("img1")
-if (image.src.match("SlidePictures/image.png")) {
+if (image.src.match("Billeder/Booth.jpg")) {
      image.src = "SlidePictures/image4.png";
 
 } else if (image.src.match("SlidePictures/image4.png")) {
