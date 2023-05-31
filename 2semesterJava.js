@@ -1,6 +1,8 @@
-// JavaScript Documentfunction imgNext() {
+// JavaScript Document
 
-      var image = document.getElementById("img1")
+function imgNext() {
+
+      var image = document.getElementById("img_1")
 if (image.src.match("Billeder/Booth.jpg")) {
 
     image.src = "SlidePictures/image2.png";
@@ -17,7 +19,7 @@ if (image.src.match("Billeder/Booth.jpg")) {
 function imgPrev() {
 
       var image = document.getElementById("img1")
-if (image.src.match("Billeder/Booth.jpg")) {
+if (image.src.match("SlidePictures/image.png")) {
      image.src = "SlidePictures/image4.png";
 
 } else if (image.src.match("SlidePictures/image4.png")) {
