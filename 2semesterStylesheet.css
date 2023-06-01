@@ -10,7 +10,6 @@
 
 html, body {
 	background-color: #f2caa7;
-	height: 100%;
 	font-family: p22-nudgewink-pro, sans-serif;
 	font-style: normal;
           font-weight: 700;
@@ -45,7 +44,7 @@ html, body {
 		width: 670px; 
 		height: 450px;
 		margin-top: 25px;
-		margin-left: 15px;
+	
 }
 
 .CenterSquare img {
@@ -59,7 +58,7 @@ html, body {
 }
 
 
-.container {
+.buttons {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 3%;
@@ -154,7 +153,6 @@ html, body {
 	font-size: 100px;
 	font: p22-nudgewink-pro, sans-serif;
 	color: #ff6d07;
-
 	text-shadow: 5px 4px rgb(40, 52, 59);
 	
 }
@@ -197,5 +195,5 @@ html, body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 1%;
-	margin-bottom: 2%;
+	margin-bottom: 10%;
 }
