@@ -1,33 +1,30 @@
 // JavaScript Document
 
+//Define HTML/CSS
+
 function imgNext() {
 
-      var image = document.getElementById("img_1")
+      var image = document.getElementById("img1")
 if (image.src.match("Billeder/Booth.jpg")) {
 
-    image.src = "SlidePictures/image2.png";
-} else if (image.src.match("SlidePictures/image2.png")) {
-    image.src = "SlidePictures/image3.png";
-
-} else if (image.src.match("SlidePictures/image3.png")) {
-    image.src = "SlidePictures/image4.png";
+    image.src = "Billeder/Boba_Revan.jpg";
+} else if (image.src.match("Billeder/Boba_Revan.jpg")) {
+    image.src = "Billeder/Presentation.jpg";
 } else {
-    image.src = "SlidePictures/image.png";
+    image.src = "Billeder/Booth.jpg";
 }
 }
 
 function imgPrev() {
 
       var image = document.getElementById("img1")
-if (image.src.match("SlidePictures/image.png")) {
-     image.src = "SlidePictures/image4.png";
+if (image.src.match("Billeder/Booth.jpg")) {
+	
+     image.src = "Billeder/Presentation.jpg";
+} else if (image.src.match("Billeder/Presentation.jpg")) {
+    image.src = "Billeder/Boba_Revan.jpg";
 
-} else if (image.src.match("SlidePictures/image4.png")) {
-    image.src = "SlidePictures/image3.png";
-
-} else if (image.src.match("SlidePictures/image3.png")) {
-    image.src = "SlidePictures/image2.png";
 } else {
-    image.src = "SlidePictures/image.png";
+    image.src = "Billeder/Booth.jpg";
 }
 }
