@@ -183,16 +183,6 @@ html, body {
 	
 }
 
-/*Adjusts size of instagram feed*/
-.News_Square_1 blockquote {
-	border-radius: 6%;
-	margin-left: auto;
-	margin-right: 50px;
-	margin-top: 1%;
-	margin-bottom: 2%;
-
-}
-
 /*Hides scrollbar in News_Square_1*/
 .News_Square_1::-webkit-scrollbar {
     display: none;
@@ -207,6 +197,13 @@ html, body {
 	margin-right: auto;
 	margin-top: 1%;
 	margin-bottom: 2%;
+	overflow:hidden;
+	overflow-y: scroll;
+}
+
+/*Hides scrollbar in News_Square_2*/
+.News_Square_2::-webkit-scrollbar {
+    display: none;
 }
 
 .News_Square_3 {
