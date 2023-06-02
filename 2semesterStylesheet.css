@@ -7,6 +7,9 @@
 	box-sizing: border-box;
 }
 
+body::-webkit-scrollbar{
+	display:none;
+}
 
 html, body {
 	background-color: #f2caa7;
@@ -175,6 +178,18 @@ html, body {
 	margin-right: 50px;
 	margin-top: 1%;
 	margin-bottom: 2%;
+	overflow:hidden;
+	overflow-y: scroll;
+	
+}
+
+.News_Square_1 blockquote {
+	border-radius: 6%;
+	margin-left: auto;
+	margin-right: 50px;
+	margin-top: 1%;
+	margin-bottom: 2%;
+
 }
 
 .News_Square_2 {
