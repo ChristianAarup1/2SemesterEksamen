@@ -235,6 +235,7 @@ html, body {
 	margin-left: 15px;
 }
 
+/*Base setting for 1st btn in top menu*/
 .btn-1 {
 	background-color: #008DCD;
     height:50px;
@@ -253,6 +254,7 @@ html, body {
 	z-index: 1;	
 }
 
+/*Adds color to font and that button effect is activated with cursor*/
 	.btn-1:hover {
 		color: #008DCD;
 		cursor: pointer;
@@ -427,4 +429,19 @@ html, body {
 		opacity: 1;
 		z-index: -1;
 		border-radius:10%;
+}
+
+.header-container {
+	display: flex;
+	justify-content: center;
+}
+
+.header-container h1{
+	font-size: 30px;
+	margin-right: 290px;
+	color: #28343B;
+}
+.header-container h2{
+	font-size: 30px;
+	color: #28343B;
 }
