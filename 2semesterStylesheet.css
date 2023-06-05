@@ -431,16 +431,19 @@ html, body {
 		border-radius:10%;
 }
 
+/*Container for sub-headers under 'Nyheder'*/
 .header-container {
 	display: flex;
 	justify-content: center;
 }
 
+/*Sub-header specifications*/
 .header-container h1{
 	font-size: 30px;
 	margin-right: 290px;
 	color: #28343B;
 }
+/*Sub-header specifications*/
 .header-container h2{
 	font-size: 30px;
 	color: #28343B;
