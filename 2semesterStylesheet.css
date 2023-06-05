@@ -21,10 +21,11 @@ html, body {
 .Top_Menu_Container {
 	display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-	margin-left: 100px;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 
