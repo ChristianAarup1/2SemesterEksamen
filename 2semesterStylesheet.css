@@ -18,6 +18,8 @@ html, body {
           font-weight: 700;
 }
 
+
+
 .logo img{
 	width: 300px;
 	display: block;
@@ -216,4 +218,11 @@ html, body {
 	margin-left: auto;
 	margin-top: 1%;
 	margin-bottom: 10%;
+}
+
+.News_Square_3 iframe {
+	width: 820px; 
+	height: 450px;
+	margin-top: 25px;
+	margin-left: 15px;
 }
