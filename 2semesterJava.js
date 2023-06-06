@@ -1,3 +1,36 @@
+// JavaScript Document
+
+function imgNext() {
+
+      var image = document.getElementById("img_1")
+if (image.src.match("Billeder/Booth.jpg")) {
+
+    image.src = "SlidePictures/image2.png";
+} else if (image.src.match("SlidePictures/image2.png")) {
+    image.src = "SlidePictures/image3.png";
+
+} else if (image.src.match("SlidePictures/image3.png")) {
+    image.src = "SlidePictures/image4.png";
+} else {
+    image.src = "SlidePictures/image.png";
+}
+}
+
+function imgPrev() {
+
+      var image = document.getElementById("img1")
+if (image.src.match("SlidePictures/image.png")) {
+     image.src = "SlidePictures/image4.png";
+
+} else if (image.src.match("SlidePictures/image4.png")) {
+    image.src = "SlidePictures/image3.png";
+
+} else if (image.src.match("SlidePictures/image3.png")) {
+    image.src = "SlidePictures/image2.png";
+} else {
+    image.src = "SlidePictures/image.png";
+}
+}
 
 // Koyocon Summer Countdown
 // Set the date we're counting down to
@@ -12,20 +45,20 @@ var x = setInterval(function () {
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds                                       
+  // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("CountdownSommer").innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("CountdownSommer").innerHTML = "EXPIRED";
   }
 }, 1000);
 
@@ -49,13 +82,13 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo2"
-  document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
+  document.getElementById("CountdownVinter").innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo2").innerHTML = "EXPIRED";
+    document.getElementById("CountdownVinter").innerHTML = "EXPIRED";
   }
 }, 1000);
 
@@ -80,12 +113,12 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo3").innerHTML = days + "d " + hours + "h "
+  document.getElementById("CountdownCosplay").innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo3").innerHTML = "EXPIRED";
+    document.getElementById("CountdownCosplay").innerHTML = "EXPIRED";
   }
 }, 1000);

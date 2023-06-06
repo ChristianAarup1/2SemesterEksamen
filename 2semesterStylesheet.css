@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+html, body {
+	background-color: #f2caa7;
+	height: 100%;
+	font-family: p22-nudgewink-pro, sans-serif;
+	font-style: normal;
+    font-weight: 700;
+}
+
+.logo{
+	display: inline-block;
+	white-space: nowrap;
+	max-width: 100vw;
+	min-height: 215px;
+}
+
+.logo img{
+	width: 20%;
+	position: absolute;
+	left: 40%;
+	top: 90px;
+}
+
+#BannerLeft{
+	position: absolute;
+	width: 35%;
+	left: 3vw;
+	top: 0%;
+}
+
+#BannerRight{
+	position: absolute;
+	width: 35%;
+	right: 3vw;
+	top: 42px;
+}
+
+.CenterSquare {
+	
+	background-color: white;
+	height: 360px;
+	width: 100%;
+	border-radius: 6% / 10%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+/*
+.CenterSquare iframe {
+		width: 100%; 
+		height: 450px;
+		margin-top: 25px;
+		margin-left: 15px;
+}*/
+
+.CenterSquare img {
+	
+	display:block;
+	width: 80%; 
+	height: 300px;
+	margin-top: 25px;
+	
+	
+}
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3%;
+	
+	}
+.LeftButtonSquare {
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	
+}
+
+.RightButtonSquare {
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	
+	margin-left: 20px;
+}
+
+/* The following code is used to make the blue navigational arrows for the picture gallery*/
+.arrow {
+  border: solid #008DCD;
+  /*Border-width is used to determine which side of the square is visible to create the arrows seen beneath the photo gallery*/
+  border-width: 0px 7px 7px 0px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10%;
+}
+/* Border-width is used to create the look of the arrows*/
+
+.right {
+  transform: rotate(-45deg);
+  margin: 12px 0px 0px 2px;
+}
+
+.left {
+  transform: rotate(135deg);
+  margin: 12px 0px 0px 24px;
+}
+/* The arrows are displayed as right and left separately*/
+
+/*The circle's are displayed left to right*/
+.Circle_1 {
+  border: solid #28343B;
+  border-width: 7px 7px 7px 7px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 12px 0px 0px 20px;
+  background-color: #28343B;
+}
+
+.Circle_2 {
+  border: solid #28343B;
+  border-width: 7px 7px 7px 7px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 12px 0px 0px 20px;
+}
+
+.Circle_3 {
+  border: solid #28343B;
+  border-width: 7px 7px 7px 7px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 12px 0px 0px 20px;
+}
+
+.Circle_4 {
+  border: solid #28343B;
+  border-width: 7px 7px 7px 7px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 12px 0px 0px 20px;
+}
+
+.NewsHeader {
+	display: flex;
+	justify-content: center;
+	font-size: 100px;
+	font: p22-nudgewink-pro, sans-serif;
+	color: #ff6d07;
+
+	text-shadow: 5px 4px rgb(40, 52, 59);
+	
+}
+
+
+.NewsSquare {
+	display: flex;
+	justify-content: center;
+}
+
+.News_Square_1 {
+	background-color: white;
+	height: 300px;
+	width: 47.5%;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-left: auto;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.News_Square_2 {
+	background-color: white;
+	height: 300px;
+	width: 47.5%;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.News_Square_3 {
+	background-color: white;
+	height: 500px;
+	width: 100%;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+#Main{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+
+#Spacer{
+	flex: 1;
+}
+
+#Content{
+	flex: 2;
+}
+
+#Sidebar{
+	flex: 2;
+	display: flex;
+	justify-content: flex-end;
+	height: 2000px;
+	margin-right: 3vw;
+	
+}
+
+#ScrollbarLines{
+	width: 72px;
+	height: 110vh;
+	position: absolute;
+	right: 0px;
+}
+
+#CountdownScrollbar{
+	width: 60%;
+	height: 100%;
+}
+
+#CountdownSidebar {
+	position: sticky;
+	width: 100%;
+	right: 20px;
+	top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 90vh;
+}
+
+.CountdownBox {
+	width: 100%;
+	height: 150px;
+	z-index: 1;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.CountdownContent {
+	background-color: white;
+	height: 125px;
+	width: 75%;
+	margin-left: 12.5%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	border-radius: 5% 5% 0% 0% / 10% 10% 0% 0%;
+	padding: 5%;
+}
+
+.CountdownBox b {
+	color: #ff6d07;
+	text-shadow: 0.1vw 0.1vw rgb(40, 52, 59);
+	font-size: 2vw;
+}
+
+.CountdownBox small {
+	font-family: "Trebuchet MS";
+	color: #28343B;
+}
+
+.CountdownBox p {
+	font-family: "Trebuchet MS";
+	font-size: 1.5vw;
+	color: #28343B;
+}
+
+.CountdownBoxLines {
+	z-index: 1;
+}
+
+.footer{
+	height: 300px;
+	position: relative;
+	max-width: 100vw;
+}
+
+#BottomBar{
+	width: 96vw;
+	position: absolute;
+	bottom: 3vw;
+}
