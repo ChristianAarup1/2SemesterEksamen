@@ -8,6 +8,68 @@
 	box-sizing: border-box;
 }
 
+header {
+	position: absolute;
+	width: 100%;
+}
+
+header div {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 3vh;
+}
+
+header button {
+	background-color: #008DCD;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border: none;
+    font-family: p22-nudgewink-pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    box-shadow: 3px 3px rgb(40, 52, 59);
+    border-radius: 30%/90%;
+	z-index: 1;
+}
+
+header a{
+	text-decoration: none;
+	color: inherit;
+}
+
+header button:hover{
+	color: #008DCD;
+	cursor: pointer;
+	background-color: white;
+}
+
+/*header button:before{
+	transition: 0.5s all ease;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: 50%;
+	bottom: 0%;
+	opacity: 0;
+	content: "";
+	background-color: white;
+}
+
+header button:hover:before{
+	transition: 0.5 all ease;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	z-index: -1;
+	border-radius:10%;
+}*/
 
 html, body {
 	background-color: #f2caa7;
@@ -22,6 +84,7 @@ html, body {
 	white-space: nowrap;
 	max-width: 100vw;
 	min-height: 215px;
+	z-index: 0;
 }
 
 .logo img{
@@ -35,7 +98,7 @@ html, body {
 	position: absolute;
 	width: 35%;
 	left: 3vw;
-	top: 0%;
+	top: 0px;
 }
 
 #BannerRight{
@@ -43,183 +106,6 @@ html, body {
 	width: 35%;
 	right: 3vw;
 	top: 42px;
-}
-
-.CenterSquare {
-	
-	background-color: white;
-	height: 360px;
-	width: 100%;
-	border-radius: 6% / 10%;
-	box-shadow: 6px 6px rgb(40, 52, 59);
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	display: flex;
-	justify-content: center;
-	
-	
-}
-
-/*
-.CenterSquare iframe {
-		width: 100%; 
-		height: 450px;
-		margin-top: 25px;
-		margin-left: 15px;
-}*/
-
-.CenterSquare img {
-	
-	display:block;
-	width: 80%; 
-	height: 300px;
-	margin-top: 25px;
-	
-	
-}
-
-
-.container {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 3%;
-	
-	}
-.LeftButtonSquare {
-	background-color: white;
-	height: 70px;
-	width: 70px;
-	border-radius: 6%;
-	box-shadow: 6px 6px rgb(40, 52, 59);
-	
-}
-
-.RightButtonSquare {
-	background-color: white;
-	height: 70px;
-	width: 70px;
-	border-radius: 6%;
-	box-shadow: 6px 6px rgb(40, 52, 59);
-	
-	margin-left: 20px;
-}
-
-/* The following code is used to make the blue navigational arrows for the picture gallery*/
-.arrow {
-  border: solid #008DCD;
-  /*Border-width is used to determine which side of the square is visible to create the arrows seen beneath the photo gallery*/
-  border-width: 0px 7px 7px 0px;
-  display: inline-block;
-  padding: 20px;
-  border-radius: 10%;
-}
-/* Border-width is used to create the look of the arrows*/
-
-.right {
-  transform: rotate(-45deg);
-  margin: 12px 0px 0px 2px;
-}
-
-.left {
-  transform: rotate(135deg);
-  margin: 12px 0px 0px 24px;
-}
-/* The arrows are displayed as right and left separately*/
-
-/*The circle's are displayed left to right*/
-.Circle_1 {
-  border: solid #28343B;
-  border-width: 7px 7px 7px 7px;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: 12px 0px 0px 20px;
-  background-color: #28343B;
-}
-
-.Circle_2 {
-  border: solid #28343B;
-  border-width: 7px 7px 7px 7px;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: 12px 0px 0px 20px;
-}
-
-.Circle_3 {
-  border: solid #28343B;
-  border-width: 7px 7px 7px 7px;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: 12px 0px 0px 20px;
-}
-
-.Circle_4 {
-  border: solid #28343B;
-  border-width: 7px 7px 7px 7px;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: 12px 0px 0px 20px;
-}
-
-.NewsHeader {
-	display: flex;
-	justify-content: center;
-	font-size: 100px;
-	font: p22-nudgewink-pro, sans-serif;
-	color: #ff6d07;
-
-	text-shadow: 5px 4px rgb(40, 52, 59);
-	
-}
-
-
-.NewsSquare {
-	display: flex;
-	justify-content: center;
-}
-
-.News_Square_1 {
-	background-color: white;
-	height: 300px;
-	width: 47.5%;
-	border-radius: 6%;
-	box-shadow: 6px 6px rgb(40, 52, 59);
-	margin-left: auto;
-	margin-right: 5%;
-	margin-top: 1%;
-	margin-bottom: 2%;
-}
-
-.News_Square_2 {
-	background-color: white;
-	height: 300px;
-	width: 47.5%;
-	border-radius: 6%;
-	box-shadow: 6px 6px rgb(40, 52, 59);
-	margin-right: auto;
-	margin-top: 1%;
-	margin-bottom: 2%;
-}
-
-.News_Square_3 {
-	background-color: white;
-	height: 500px;
-	width: 100%;
-	border-radius: 6%;
-	box-shadow: 6px 6px rgb(40, 52, 59);
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 1%;
-	margin-bottom: 2%;
 }
 
 #Main{
@@ -236,12 +122,189 @@ html, body {
 	flex: 2;
 }
 
+#ImageCarousel{
+	background-color: white;
+	height: 20px;
+	width: 100%;
+	height: 400px;
+	border-radius: 7%/10%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	padding: 5%;
+}
+
+#ImageCarousel img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#ImageCarouselButtons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3%;
+	width: 70%;
+	margin-left: 15%;
+	right-padding: 10%;
+	left-padding: 10%;
+	}
+
+#L_button {
+	background-color: white;
+	height: 3.5rem;
+	width: 3.5rem;
+	border-radius: 20%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	border: none;
+}
+
+#L_button:hover {
+	cursor: pointer;
+}
+
+#R_button {
+	background-color: white;
+	height: 3.5rem;
+	width: 3.5rem;
+	border-radius: 20%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	border: none;
+}
+
+#R_button:hover {
+	cursor: pointer;
+}
+
+/* The following code is used to make the blue navigational arrows for the picture gallery*/
+.arrow {
+	border: solid #008DCD;
+  	/*Border-width is used to determine which side of the square is visible to create the arrows seen beneath the photo gallery*/
+  	border-width: 0rem 0.4rem 0.4rem 0rem;
+  	display: inline-block;
+  	padding: 0.8rem;
+  	border-bottom-right-radius: 20%;
+}
+/* Border-width is used to create the look of the arrows*/
+
+.right {
+  	transform: rotate(-45deg);
+	margin: 0.3rem 0rem 0rem -0.3rem;
+}
+
+.left {
+  	transform: rotate(135deg);
+	margin: 0.3rem 0rem 0rem 0.3rem;
+}
+/* The arrows are displayed as right and left separately*/
+
+/*The circle's are displayed left to right*/
+.Circle_1 {
+  	border: solid #28343B;
+  	border-width: 0.4rem 0.4rem 0.4rem 0.4rem;
+  	height: 2.5rem;
+  	width: 2.5rem;
+  	border-radius: 50%;
+  	background-color: #28343B;
+	margin-top: 25%
+
+}
+
+.Circle_2 {
+  	border: solid #28343B;
+  	border-width: 0.4rem 0.4rem 0.4rem 0.4rem;
+  	height: 2.5rem;
+  	width: 2.5rem;
+  	display: inline-block;
+  	border-radius: 50%;
+	margin-top: 25%
+}
+
+.Circle_3 {
+  	border: solid #28343B;
+  	border-width: 0.4rem 0.4rem 0.4rem 0.4rem;
+  	height: 2.5rem;
+  	width: 2.5rem;
+  	display: inline-block;
+  	border-radius: 50%;
+	margin-top: 25%
+}
+
+.Circle_4 {
+  	border: solid #28343B;
+  	border-width: 0.4rem 0.4rem 0.4rem 0.4rem;
+  	height: 2.5rem;
+  	width: 2.5rem;
+  	display: inline-block;
+  	border-radius: 50%;
+	margin-top: 25%
+}
+
+#NewsHeader {
+	text-align: center;
+	font-size: 3rem;
+	font: p22-nudgewink-pro, sans-serif;
+	color: #ff6d07;
+	text-shadow: 5px 4px rgb(40, 52, 59);
+}
+
+#NewsTags{
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+	color: #28343B;
+	max-width: 100%;
+	padding-bottom: 1rem;
+}
+
+#NewsSquares{
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.NewsSquareSmall{
+	width: 47.5%;
+	background-color: white;
+	height: 300px;
+	border-radius: 6%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	overflow:hidden;
+	overflow-y: scroll;
+}
+
+iframe.instagram-media {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: auto !important;
+}
+
+.NewsSquareSmall::-webkit-scrollbar {
+    display: none;
+}
+
+.NewsSquareLarge{
+	margin-top: 5%;
+	width: 100%;
+	background-color: white;
+	height: 375px;
+	border-radius: 7%/10%;
+	box-shadow: 6px 6px rgb(40, 52, 59);
+	padding: 5%;
+}
+
+.NewsSquareLarge iframe{
+	width: 100%
+}
+
 #Sidebar{
 	flex: 2;
 	display: flex;
 	justify-content: flex-end;
+	height: 1400px;
 	margin-right: 3vw;
-	height: 2000px;
+	
 }
 
 #ScrollbarLines{
@@ -268,6 +331,10 @@ html, body {
 	height: 90vh;
 }
 
+#CountdownSidebar a{
+	text-decoration: none;
+}
+	
 .CountdownBox {
 	width: 100%;
 	height: 150px;
