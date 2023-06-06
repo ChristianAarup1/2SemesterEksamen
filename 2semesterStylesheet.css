@@ -240,9 +240,8 @@ html, body {
 	flex: 2;
 	display: flex;
 	justify-content: flex-end;
-	height: 2000px;
 	margin-right: 3vw;
-	
+	height: 2000px;
 }
 
 #ScrollbarLines{
