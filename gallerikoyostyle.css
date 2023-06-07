@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*body style*/
+body{
+	background-color:#F2CAA7;
+	margin:0;
+	width:100%;
+}
+
+/*overskrifter*/
+h1{
+	font-family: "p22-nudgewink-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 50px;
+	text-align: center;
+	color:#28343B;
+}
+
+/*video galleri*/
+
+.video{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	
+}
+
+
+
+/*Selve galleri*/
+.galleri {
+   	line-height:0;
+   	column-count:5;
+   	column-gap:5px;
+	padding-left:20%;
+	padding-right:20%;
+	padding-bottom:10%;
+	padding-top:5%;
+}
+
+.billede{
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+.billede:hover {
+   opacity:1;
+}
+
+.galleri .billede {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* til at match column gap */
+}
+
+/* knapper css til datoer*/
+
+.galleriknapper{
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 30px;
+	padding-left: 25%;
+	padding-right: 25%;
+		
+}
+
+.button {
+    background-color: #F2CAA7;
+    height:30px;
+    width: 150px;
+    color:#28343B;
+    border: none;
+    font-family: "p22-nudgewink-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 16px;
+    box-shadow: 3px 3px rgb(40, 52, 59);
+    border-radius: 10%;
+    margin-top: 10px;
+    outline: none; 
+    position: relative;
+    z-index: 1;
+	
+}
+	
+.button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+    opacity: 0;
+    content: "";
+    background-color: #B84D00;
+
+}
+
+.button:hover:before {
+        transition: 0.5 all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        border-radius:10%;
+}
+
+.button:hover {
+        color:#FFFFFF;
+        cursor: pointer;
+}
+
+/*top menu knapper*/
+	/*knap et*/
+
+.btn-1 {
+    background-color: #008DCD;
+    height:50px;
+    width: 100px;
+    color: white;
+    border: none;
+    font-family: "p22-nudgewink-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    box-shadow: 3px 3px rgb(40, 52, 59);
+    border-radius: 10%;
+    margin-top: 10px;
+    outline: none; 
+    position: relative;
+    z-index: 1;
+}
+
+/*tilføjer farve og animation til top knapper*/
+    .btn-1:hover {
+        color: #008DCD;
+        cursor: pointer;
+
+
+    }
+
+.btn-1:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+    opacity: 0;
+    content: "";
+    background-color: white;
+
+}
+
+.btn-1:hover:before {
+        transition: 0.5 all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        border-radius:10%;
+}
+
+/*knap to*/
+
+.btn-2 {
+    background-color: #008DCD;
+    height:50px;
+    width: 100px;
+    color: white;
+    border: none;
+    font-family: "p22-nudgewink-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    box-shadow: 3px 3px rgb(40, 52, 59);
+    border-radius: 10%;
+    margin-top: 10px;
+    outline: none; 
+    position: relative;
+    z-index: 1;
+}
+
+/*tilføjer farve og animation til top knapper*/
+    .btn-2:hover {
+        color: #008DCD;
+        cursor: pointer;
+
+
+    }
+
+.btn-2:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+    opacity: 0;
+    content: "";
+    background-color: white;
+
+}
+
+.btn-2:hover:before {
+        transition: 0.5 all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        border-radius:10%;
+}
+
+/*knap tre*/
+
+.btn-3 {
+    background-color: #008DCD;
+    height:50px;
+    width: 100px;
+    color: white;
+    border: none;
+    font-family: "p22-nudgewink-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    box-shadow: 3px 3px rgb(40, 52, 59);
+    border-radius: 10%;
+    margin-top: 10px;
+    outline: none; 
+    position: relative;
+    z-index: 1;
+}
+
+/*tilføjer farve og animation til top knapper*/
+    .btn-3:hover {
+        color: #008DCD;
+        cursor: pointer;
+
+
+    }
+
+.btn-3:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+    opacity: 0;
+    content: "";
+    background-color: white;
+
+}
+
+.btn-3:hover:before {
+        transition: 0.5 all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        border-radius:10%;
+}
+
+/*knap fire*/
+
+.btn-4 {
+    background-color: #008DCD;
+    height:50px;
+    width: 100px;
+    color: white;
+    border: none;
+    font-family: "p22-nudgewink-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    box-shadow: 3px 3px rgb(40, 52, 59);
+    border-radius: 10%;
+    margin-top: 10px;
+    outline: none; 
+    position: relative;
+    z-index: 1;
+}
+
+/*tilføjer farve og animation til top knapper*/
+    .btn-4:hover {
+        color: #008DCD;
+        cursor: pointer;
+
+
+    }
+
+.btn-4:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+    opacity: 0;
+    content: "";
+    background-color: white;
+
+}
+
+.btn-4:hover:before {
+        transition: 0.5 all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        border-radius:10%;
+}
+
+.Top_Menu_Container {
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+	padding-right: 20%;
+}
+
+
+
+
+
+/*media resize*/
+@media (max-width: 1200px) {
+   	.galleri {
+   	column-count:         4;
+   }
+}
+
+@media (max-width: 1000px) {
+   	.galleri {
+   	column-count:         3;
+   }
+}
+
+@media (max-width: 800px) {
+   	.galleri {
+  	column-count:         2;
+   }
+	
+	
+}
+
+@media (max-width: 400px) {
+   	.galleri {
+   	column-count:         1;
+   }
+}
+
+#topbar{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+}
+
+
+#rightside{
+	position:absolute;
+	right:0.1vw;
+	top:0;
+	height:2000px;
+	z-index:-1;
+}
+
+
+#gsb{
+	height:260vh;
+	width:86px;
+	right:0px;
+	position:absolute;
+	
+	
+}
+
+#bundbar{
+	left:0;
+	right:10px;
+	
+}
+
+#gbb{
+	left:0;
+	right:10px;
+}
